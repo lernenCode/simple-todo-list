@@ -16,14 +16,18 @@ function main() {
     if (titulo.value !== "") {
       let tarefa = {
         id: nextId++,
-        titulo: titulo.value,
+        titulo: convertToUpperLower(titulo.value),
       };
-
+  
       tarefas.push(tarefa);
       criarElementos(tarefa.id, tarefa.titulo);
       titulo.value = "";
       localStorage.setItem("tarefas", JSON.stringify(tarefas));
     }
+  }
+
+  function convertToUpperLower(input) {
+    return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
   }
   
   function criarElementos(id, titulo) {
@@ -37,13 +41,9 @@ function main() {
     novaDiv.appendChild(novoBotao);
     mainDiv.appendChild(novaDiv);
     // Adicionar classes do Boostrap e CSS
-    novoTitulo.setAttribute("class", "d-inline-block col-10 deco-title");
-    novoBotao.setAttribute(
-      "class",
-      "d-inline-block float-right button-check col-2 p-2 mx-auto"
-    );
+    novoTitulo.setAttribute("class", "d-inline-block col-10 deco-title pt-1");
+    novoBotao.setAttribute("class","d-inline-block float-right button-check col-2 p-2 mx-auto" );
     novaDiv.setAttribute("class", "glassLiquid mt-3 d-flex");
-    //
     novoTitulo.innerHTML = titulo;
     // Adiciona evento de excluir tarefa quando o botão é clicado
     novoBotao.addEventListener("click", function (event) {
@@ -56,6 +56,8 @@ function main() {
     let tarefasSalvas = JSON.parse(localStorage.getItem("tarefas"));
     // Encontra o id da tarefaDeletada no array
     let id = tarefaDeletada.getAttribute("data-id");
+    let tarefaTitulo = document.querySelector(`[data-id='${id}']`).previousSibling;
+    tarefaTitulo.classList.add("riscado");
     tarefaDeletada.parentNode.classList.add("deleting");
     setTimeout(() => {
       tarefaDeletada.parentNode.remove();
