@@ -261,13 +261,15 @@ section {
     color: #292828;
 }
 
-.deco-descricao{
-    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 0.8rem;
-    font-weight: 300;
-    padding: 0rem 1.6rem;
-    color: #474747;
-}
+input::placeholder, .deco-title {
+    font-size: 1em;
+  }
+  
+  @media (max-width: 768px) {
+    input::placeholder, .deco-title {
+      font-size: 0.85em;
+    }
+  }
 
 /* CSS */
 .button-add {
@@ -360,6 +362,10 @@ section {
   
   .deleting {
     animation: slideOutRight 0.5s forwards;
+}
+
+.riscado{
+    text-decoration: line-through;
 }
 
 @keyframes slideOutRight {
