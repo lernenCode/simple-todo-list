@@ -18,7 +18,7 @@ function main() {
         id: nextId++,
         titulo: convertToUpperLower(titulo.value),
       };
-  
+
       tarefas.push(tarefa);
       criarElementos(tarefa.id, tarefa.titulo);
       titulo.value = "";
@@ -29,25 +29,56 @@ function main() {
   function convertToUpperLower(input) {
     return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
   }
-  
+
   function criarElementos(id, titulo) {
     var novaDiv = document.createElement("div");
+    var novaDivCheckBox = document.createElement("div");
+    var novoCheckBox = document.createElement("input");
+    var CheckBoxLabel = document.createElement("label");
+    var spanCheckBox = document.createElement("span");
     var novoTitulo = document.createElement("h6");
     var novoBotao = document.createElement("button");
-    novoBotao.innerHTML = `<i class='bi bi-check2'></i>`;
+
+    // Especificar tipos de elementos criados
+    novoCheckBox.type = "checkbox";
+    novoBotao.innerHTML = `<i class="bi bi-trash3"></i>`;
+
     // Adiciona atributo data-id para o botão
     novoBotao.setAttribute("data-id", id);
+
+    // Insere os elementos na ordem desejada
+    CheckBoxLabel.appendChild(novoCheckBox);
+    CheckBoxLabel.appendChild(spanCheckBox);
+    novaDivCheckBox.appendChild(CheckBoxLabel);
+    novaDiv.appendChild(novaDivCheckBox);
     novaDiv.appendChild(novoTitulo);
     novaDiv.appendChild(novoBotao);
     mainDiv.appendChild(novaDiv);
+
     // Adicionar classes do Boostrap e CSS
-    novoTitulo.setAttribute("class", "d-inline-block col-10 deco-title pt-1");
-    novoBotao.setAttribute("class","d-inline-block float-right button-check col-2 p-2 mx-auto" );
+    spanCheckBox.setAttribute("class", "checkbox");
+    novoCheckBox.setAttribute("class", "checkbox");
+    novaDivCheckBox.setAttribute("class", "checkbox-wrapper col-1 p-1");
+    novoTitulo.setAttribute("class", "col-9 deco-title pt-2");
+    novoBotao.setAttribute(
+      "class",
+      "float-right button-check col-2 p-2 mx-auto"
+    );
     novaDiv.setAttribute("class", "glassLiquid mt-3 d-flex");
     novoTitulo.innerHTML = titulo;
+
     // Adiciona evento de excluir tarefa quando o botão é clicado
     novoBotao.addEventListener("click", function (event) {
       deletarTarefa(this);
+    });
+
+    // Verifica checkBox
+    novoCheckBox.addEventListener("change", function () {
+      if (this.checked) {
+        novoTitulo.classList.add("riscado");
+      } else {
+        novoTitulo.classList.remove("riscado");
+      }
     });
   }
 
@@ -56,7 +87,9 @@ function main() {
     let tarefasSalvas = JSON.parse(localStorage.getItem("tarefas"));
     // Encontra o id da tarefaDeletada no array
     let id = tarefaDeletada.getAttribute("data-id");
-    let tarefaTitulo = document.querySelector(`[data-id='${id}']`).previousSibling;
+    let tarefaTitulo = document.querySelector(
+      `[data-id='${id}']`
+    ).previousSibling;
     tarefaTitulo.classList.add("riscado");
     tarefaDeletada.parentNode.classList.add("deleting");
     setTimeout(() => {
