@@ -43,8 +43,9 @@ Para clonar o repositório, você precisará ter o Git instalado em seu computad
 
 Uma vez que você tenha o Git instalado, você pode clonar o repositório abrindo o Git Bash ou o terminal e usando o comando abaixo:
 
-`git clone https://github.com/lernenCode/simple-todo-list.git`
-
+```bash
+git clone https://github.com/lernenCode/simple-todo-list.git
+```
 Isso criará uma pasta chamada "to-do-list" com todos os arquivos do aplicativo. Para abrir o aplicativo, basta abrir o arquivo "index.html" nessa pasta com o seu navegador.
 
 
