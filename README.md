@@ -34,7 +34,7 @@ Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplic
 
 
 ## 💾 Instalação
-Para usar este aplicativo, você pode acessá-lo diretamente pelo link do GitHub Pages (https://lernencode.github.io/simple-todo-list/) ou baixar ou clonar este repositório e abrir o arquivo "index.html" em um navegador compatível.
+Para usar este aplicativo, você pode acessá-lo diretamente pelo link do [GitHub Pages](https://lernencode.github.io/simple-todo-list/) ou baixar ou clonar este repositório e abrir o arquivo "index.html" em um navegador compatível.
 
 
 ### Para Clonar o repositório, você pode fazer o seguinte:
