@@ -5,16 +5,18 @@
 
 ## Índice
 1. [Introdução](#-introdução)
-2. [Instalação](#-instalação)
+2. [Objetivos](#-os-objetivos-do-projeto-to-do-list-incluem)
+3. [Instalação](#-instalação)
    - [Para clonar o repositório](#para-clonar-o-repositório-você-pode-fazer-o-seguinte)
    - [Para baixar o repositório](#para-baixar-o-repositório-você-pode-fazer-o-seguinte)
-3. [Requisitos de software](#%EF%B8%8F-requisitos-de-software)
-4. [Informação de compatibilidade](#%EF%B8%8F-informação-de-compatibilidade)
-5. [Como usar](#-como-usar)
-6. [Tecnologias utilizadas](#-tecnologias-utilizadas)
-7. [Contribuição](#-contribuindo)
-8. [Contato](#%EF%B8%8F-contato)
-9. [Licença](#%EF%B8%8F-licença)
+4.  [Requisitos de software](#%EF%B8%8F-requisitos-de-software)
+5.  [Informação de compatibilidade](#%EF%B8%8F-informação-de-compatibilidade)
+6.  [Como usar](#-como-usar)
+7.  [Tecnologias utilizadas](#-tecnologias-utilizadas)
+8.  [Indicadores de resultado](#-indicadores-de-resultado-relacionados-a-este-projeto-incluem)
+9.  [Contribuição](#-contribuindo)
+11. [Contato](#%EF%B8%8F-contato)
+12. [Licença](#%EF%B8%8F-licença)
 
 
 
@@ -23,9 +25,16 @@ Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplic
 
 
 
+## 🎯 Os objetivos do projeto "To-Do List" incluem:
+* Permitir que os usuários adicionem, marquem como concluídas e excluam tarefas da lista.
+* Armazenar as tarefas no armazenamento local do navegador para que elas possam ser acessadas mesmo depois de fechar a página.
+* Manter a lista de tarefas dos usuários organizada e garantir que nada importante seja esquecido.
+* Projetar o aplicativo para funcionar em qualquer dispositivo com suporte a navegadores modernos e ser totalmente responsivo.
+
+
+
 ## 💾 Instalação
 Para usar este aplicativo, você pode acessá-lo diretamente pelo link do GitHub Pages (https://lernencode.github.io/simple-todo-list/) ou baixar ou clonar este repositório e abrir o arquivo "index.html" em um navegador compatível.
-
 
 
 ### Para Clonar o repositório, você pode fazer o seguinte:
@@ -73,6 +82,8 @@ Não é necessária nenhuma configuração adicional. Quando você abrir o arqui
 
 3. Excluir uma tarefa: Para excluir uma tarefa, clique no ícone de remover com o simbolo de uma "lixeira" ao lado da tarefa. A tarefa será removida da lista.
 
+
+
 ## 👨‍💻 Tecnologias utilizadas
 * HTML: Foi utilizado para estruturar o conteúdo da página, criando elementos como cabeçalho, corpo e rodapé.
 
@@ -83,6 +94,14 @@ Não é necessária nenhuma configuração adicional. Quando você abrir o arqui
 * Bootstrap: Foi utilizado como biblioteca de componentes de interface do usuário, ajudando a criar layouts responsivos e estilos consistentes.
 
 * Armazenamento local do navegador: Foi utilizado para salvar as tarefas do usuário, permitindo que elas sejam acessadas mesmo depois de fechar a página.
+
+
+
+## 📊 Indicadores de resultado relacionados a este projeto incluem:
+* Taxa de usuários que adicionam, marcam como concluídas e excluem tarefas com sucesso.
+* Taxa de usuários que acessam as tarefas armazenadas no armazenamento local do navegador.
+* Feedback positivo dos usuários sobre a facilidade de uso e organização do aplicativo.
+* Número de dispositivos e navegadores compatíveis com o aplicativo.
 
 
 
@@ -100,8 +119,10 @@ Se você quiser contribuir com o código, você pode criar um pull request com s
 
 Observação: é importante seguir as diretrizes de contribuição e garantir que as alterações feitas estejam de acordo com o objetivo e a estrutura do projeto. Por favor, note que essas instruções podem ficar desatualizadas com o tempo, portanto, sempre é recomendado seguir a [documentação oficial](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) ou tutorial mantido pela plataforma de versionamento de código.
 
+Eu e todos que contribuiu para este projeto estaria inserido como desenvolvedor deste projeto, responsável por implementar as funcionalidades descritas acima nos indicadores de resultado, testar o aplicativo e garantir a compatibilidade com diferentes dispositivos e navegadores.
 
-	
+
+
 ## ☎️ Contato
 Se você tiver alguma dúvida ou precisar de ajuda, entre em contato conosco através dos seguintes meios:
 * Envie um e-mail para luizvinicius.emprego@hotmail.com
