@@ -1,30 +1,28 @@
-# simple to-do list
+# 📝 simple to-do list
 
 
-
-
-# Índice
+## Índice
 1. [Introdução](#introdução)
 2. [Instalação](#instalação)
-   - [Para clonar o repositório](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#para-baixar-o-reposit%C3%B3rio-voc%C3%AA-pode-fazer-o-seguinte)
-   - [Para baixar o repositório](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#para-baixar-o-reposit%C3%B3rio-voc%C3%AA-pode-fazer-o-seguinte)
-3. [Requisitos de software](#requisitos-de-software)
-4. [Informação de compatibilidade](#informação-de-compatibilidade)
+   - [Para clonar o repositório](#para-clonar-o-repositório-você-pode-fazer-o-seguinte)
+   - [Para baixar o repositório](#para-baixar-o-repositório-você-pode-fazer-o-seguinte)
+3. [Requisitos de software](#%EF%B8%8Frequisitos-de-software)
+4. [Informação de compatibilidade](#%EF%B8%8Finformação-de-compatibilidade)
 5. [Como usar](#como-usar)
-6. [Tecnologias utilizadas](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#tecnologias-utilizadas)
-7. [Contribuição](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#contribuindo)
-8. [Contato](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#contato)
-9. [Licença](https://github.com/lernenCode/simple-todo-list/edit/main/README.md#licen%C3%A7a)
+6. [Tecnologias utilizadas](#tecnologias-utilizadas)
+7. [Contribuição](#contribuindo)
+8. [Contato](#%EF%B8%8Fcontato)
+9. [Licença](#%EF%B8%8Flicença)
 
 
 
-## Introdução
-Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplicativo web que permite que os usuários adicionem, marqhem como concluídas e excluam tarefas da lista. Ele também armazena as tarefas no armazenamento local do navegador, permitindo que elas sejam acessadas mesmo depois de fechar a página. Com este aplicativo, você pode manter sua lista de tarefas organizada e garantir que nada importante seja esquecido. Além disso, o aplicativo é projetado para rodar em qualquer dispositivo, incluindo computadores, celulares e tablets, e é totalmente responsivo, garantindo uma excelente experiência de usuário em qualquer tela. Continue lendo para obter mais informações sobre como instalar e usar o aplicativo. Não é necessário nenhum requisito específico para rodar o aplicativo, ele é leve e fácil de usar, qualquer dispositivo deve ser capaz de rodá-lo sem dificuldades.
+## ✨Introdução
+Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplicativo web que permite que os usuários adicionem, marquem como concluídas e excluam tarefas da lista. Ele também armazena as tarefas no armazenamento local do navegador, permitindo que elas sejam acessadas mesmo depois de fechar a página. Com este aplicativo, você pode manter sua lista de tarefas organizada e garantir que nada importante seja esquecido. Além disso, o aplicativo é projetado para rodar em qualquer dispositivo com suporte a navegadores modernos, incluindo computadores, celulares e tablets, e é totalmente responsivo, garantindo uma excelente experiência de usuário em qualquer tela. Continue lendo para obter mais informações sobre como instalar e usar o aplicativo. 
 
 
 
-## Instalação
-Para usar este aplicativo, você pode acessá-lo diretamente pelo link do [GitHub Pages](https://lernencode.github.io/simple-todo-list/). Ou você pode baixar ou clonar este repositório e abrir o arquivo "index.html" em um navegador.
+## 💾Instalação
+Para usar este aplicativo, você pode acessá-lo diretamente pelo link do GitHub Pages (https://lernencode.github.io/simple-todo-list/) ou baixar ou clonar este repositório e abrir o arquivo "index.html" em um navegador compatível.
 
 
 
@@ -53,27 +51,27 @@ Isso criará uma pasta chamada "to-do-list" com todos os arquivos do aplicativo.
 
 
 
-## Requisitos de software:
-É necessário ter um navegador atualizado, como Google Chrome, Mozilla Firefox, Safari, entre outros.
-É necessário ter o Git instalado para clonar o repositório.
-É necessário ter um software de descompactação como WinRAR ou 7-zip para descompactar o arquivo baixado do repositório.
+## 🖥️Requisitos de software:
+* É necessário ter um navegador atualizado, como Google Chrome, Mozilla Firefox, Safari, entre outros.
+* É necessário ter o Git instalado para clonar o repositório.
+* É necessário ter um software de descompactação como WinRAR ou 7-zip para descompactar o arquivo baixado do repositório.
 
 
-## Informação de compatibilidade:
+## ⚙️Informação de compatibilidade:
 O aplicativo é compatível com todos os sistemas operacionais modernos, incluindo Windows, MacOS e Linux. Ele também é compatível com todos os dispositivos móveis, incluindo smartphones e tablets.
 
 Não é necessária nenhuma configuração adicional. Quando você abrir o arquivo "index.html" no navegador, o aplicativo será carregado e estará pronto para uso. Se você encontrar algum problema durante a instalação, entre em contato conosco pelo email luizvinicius.emprego@hotmail.com e nós teremos o prazer de ajudá-lo.
 
 
 
-## Como usar
+## 🦮Como usar
 1. Adicionar uma tarefa: Para adicionar uma nova tarefa, digite o nome da tarefa na caixa de texto e clique no botão "Adicionar" com simbolo de "+".
 
 2. Concluir uma tarefa: Para marcar uma tarefa como concluída, marque o checkbox ao lado da tarefa. A tarefa será riscada.
 
 3. Excluir uma tarefa: Para excluir uma tarefa, clique no ícone de remover com o simbolo de uma "lixeira" ao lado da tarefa. A tarefa será removida da lista.
 
-## Tecnologias utilizadas
+## 👨‍💻Tecnologias utilizadas
 * HTML: Foi utilizado para estruturar o conteúdo da página, criando elementos como cabeçalho, corpo e rodapé.
 
 * CSS: Foi utilizado para estilizar a interface do usuário, criando layout responsivo e estilos consistentes, como cores, fontes e espaçamentos.
@@ -86,7 +84,7 @@ Não é necessária nenhuma configuração adicional. Quando você abrir o arqui
 
 
 
-## Contribuindo
+## 🤝Contribuindo
 Se você quiser contribuir com o código, você pode criar um pull request com suas alterações. Aqui está como fazer isso:
 1. Faça um fork do repositório do projeto no GitHub. Isso criará uma cópia do repositório em sua conta do GitHub.
 2. Clone o repositório forkado em sua máquina local. Isso permitirá que você faça alterações no código.
@@ -102,7 +100,7 @@ Observação: é importante seguir as diretrizes de contribuição e garantir qu
 
 
 	
-## Contato
+## ☎️Contato
 Se você tiver alguma dúvida ou precisar de ajuda, entre em contato conosco através dos seguintes meios:
 * Envie um e-mail para luizvinicius.emprego@hotmail.com
 * Entre em contato conosco através do meu [Linkdin](https://www.linkedin.com/in/luizbelmonte/)
@@ -111,7 +109,7 @@ Ficaremos felizes em ajudá-lo com qualquer problema ou dúvida que você possa 
 
 
 
-## Licença
+## ⚖️Licença
 Este projeto está licenciado sob a licença MIT. Isso significa que você é livre para usar, modificar e distribuir o projeto, desde que inclua o aviso de direitos autorais e a licença incluídos no projeto. Consulte o arquivo LICENSE para obter mais detalhes.
 Ao usar ou contribuir para este projeto, você concorda em cumprir os termos da licença MIT.
 
