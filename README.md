@@ -5,7 +5,7 @@
     <strong>Você pode acessar a demonstração do projeto no Github Pages:</strong>
   </span> 
   <br>
-  <a href="https://lernencode.github.io/ArduinoProjects/" target="_blank">
+  <a href="https://lernencode.github.io/simple-todo-list/" target="_blank">
     <span style="font-size:larger;">https://lernencode.github.io/simple-todo-list/</span>
   </a>
 </p>
