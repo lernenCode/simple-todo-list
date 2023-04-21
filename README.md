@@ -1,6 +1,6 @@
 # 📝 simple to-do list
 
-![todolist](https://user-images.githubusercontent.com/96671069/233508274-84f11e22-6a6b-4706-9de2-928a126c6887.png)
+![todolist](https://user-images.githubusercontent.com/96671069/233728761-7a2ee6bd-7061-4273-b5ca-02c452a9bd75.png)
 
 
 ## Índice
