@@ -1,7 +1,19 @@
 # 📝 simple to-do list
 
+<p align="center">
+  <span style="font-size:larger;">
+    <strong>Você pode acessar a demonstração do projeto no Github Pages:</strong>
+  </span> 
+  <br>
+  <a href="https://lernencode.github.io/ArduinoProjects/" target="_blank">
+    <span style="font-size:larger;">https://lernencode.github.io/simple-todo-list/</span>
+  </a>
+</p>
+
 ![todolist](https://user-images.githubusercontent.com/96671069/233728761-7a2ee6bd-7061-4273-b5ca-02c452a9bd75.png)
 
+## ✨ Introdução
+Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplicativo web que permite que os usuários adicionem, marquem como concluídas e excluam tarefas da lista. Ele também armazena as tarefas no armazenamento local do navegador, permitindo que elas sejam acessadas mesmo depois de fechar a página. Com este aplicativo, você pode manter sua lista de tarefas organizada e garantir que nada importante seja esquecido. Além disso, o aplicativo é projetado para rodar em qualquer dispositivo com suporte a navegadores modernos, incluindo computadores, celulares e tablets, e é totalmente responsivo, garantindo uma excelente experiência de usuário em qualquer tela. Continue lendo para obter mais informações sobre como instalar e usar o aplicativo. 
 
 ## Índice
 1. [Introdução](#-introdução)
@@ -17,13 +29,6 @@
 9.  [Contribuição](#-contribuindo)
 11. [Contato](#%EF%B8%8F-contato)
 12. [Licença](#%EF%B8%8F-licença)
-
-
-
-## ✨ Introdução
-Bem-vindo ao nosso aplicativo "To-Do List"! Este é um simples e eficiente aplicativo web que permite que os usuários adicionem, marquem como concluídas e excluam tarefas da lista. Ele também armazena as tarefas no armazenamento local do navegador, permitindo que elas sejam acessadas mesmo depois de fechar a página. Com este aplicativo, você pode manter sua lista de tarefas organizada e garantir que nada importante seja esquecido. Além disso, o aplicativo é projetado para rodar em qualquer dispositivo com suporte a navegadores modernos, incluindo computadores, celulares e tablets, e é totalmente responsivo, garantindo uma excelente experiência de usuário em qualquer tela. Continue lendo para obter mais informações sobre como instalar e usar o aplicativo. 
-
-
 
 ## 🎯 Os objetivos do projeto "To-Do List" incluem:
 * Permitir que os usuários adicionem, marquem como concluídas e excluam tarefas da lista.
